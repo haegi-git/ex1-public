@@ -22,5 +22,5 @@ jobs:
           key: ${{secrets.EC2_SSH_KEY}}
           port: 22
           source: "html/index.html"
-          target: "/var/www/html/index.html"
+          target: "/var/www/html"
           strip_components: 1
